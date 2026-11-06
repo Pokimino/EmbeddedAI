@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file    mnist.h
   * @author  AST Embedded Analytics Research Platform
-  * @date    2026-09-11T11:21:30+0200
+  * @date    2026-09-18T09:57:55+0200
   * @brief   AI Tool Automatic Code Generator for Embedded NN computing
   ******************************************************************************
   * @attention
@@ -23,7 +23,7 @@
 
 /******************************************************************************/
 #define AI_MNIST_MODEL_NAME          "mnist"
-#define AI_MNIST_ORIGIN_MODEL_NAME   "mnist_nn_c2_16_10"
+#define AI_MNIST_ORIGIN_MODEL_NAME   "node_5densemnist10classfinetuned"
 
 /******************************************************************************/
 #define AI_MNIST_ACTIVATIONS_ALIGNMENT   (4)
@@ -44,9 +44,7 @@ AI_DEPRECATED
   AI_MNIST_IN_1_SIZE_BYTES, \
 }
 #define AI_MNIST_IN_1_FORMAT      (AI_BUFFER_FORMAT_FLOAT)
-#define AI_MNIST_IN_1_HEIGHT      (28)
-#define AI_MNIST_IN_1_WIDTH       (28)
-#define AI_MNIST_IN_1_CHANNEL     (1)
+#define AI_MNIST_IN_1_CHANNEL     (784)
 #define AI_MNIST_IN_1_SIZE        (784)
 #define AI_MNIST_IN_1_SIZE_BYTES  (3136)
 
@@ -69,7 +67,7 @@ AI_DEPRECATED
 #define AI_MNIST_OUT_1_SIZE_BYTES  (40)
 
 /******************************************************************************/
-#define AI_MNIST_N_NODES (5)
+#define AI_MNIST_N_NODES (10)
 
 
 AI_API_DECLARE_BEGIN
