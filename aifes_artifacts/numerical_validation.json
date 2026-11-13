@@ -1,0 +1,42 @@
+{
+  "evaluated_on": "Linux host, actual AIfES C default backend; NOT STM32",
+  "samples": 10000,
+  "float32_centered_correct": {
+    "100": 100,
+    "1000": 975,
+    "10000": 9780
+  },
+  "float32_uncentered_correct": {
+    "100": 97,
+    "1000": 905,
+    "10000": 8994
+  },
+  "q7_c_correct": {
+    "100": 100,
+    "1000": 975,
+    "10000": 9783
+  },
+  "q7_f32_class_agreement": 9962,
+  "q7_python_c_exact_match": true,
+  "intermediate_out_of_range_values_by_layer": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "inference_workspace_bytes": 1588,
+  "max_output_absolute_difference_vs_f32": 0.37464702129364014,
+  "first_output_q7": [
+    -128,
+    -128,
+    -128,
+    -128,
+    -128,
+    -128,
+    -128,
+    127,
+    -128,
+    -128
+  ]
+}

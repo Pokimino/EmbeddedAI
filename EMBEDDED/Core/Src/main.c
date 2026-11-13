@@ -18,7 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "app_x-cube-ai.h"
+#include "app_aifes.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -113,7 +113,7 @@ int main(void)
   MX_USART2_UART_Init();
   MX_USART3_UART_Init();
   MX_USB_OTG_FS_PCD_Init();
-  MX_X_CUBE_AI_Init();
+  APP_AIFES_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -124,7 +124,7 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-  MX_X_CUBE_AI_Process();
+  APP_AIFES_Process();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

@@ -1,0 +1,97 @@
+{
+  "architecture": [
+    784,
+    512,
+    256,
+    128,
+    64,
+    10
+  ],
+  "activations": [
+    "relu",
+    "relu",
+    "relu",
+    "relu",
+    "softmax"
+  ],
+  "model_sha256": "f95de65575fbb5b23cf6126d0c379740004975c44f1a73aaf970eb78665ce141",
+  "mnist_sha256": "731c5ac602752760c8e48fbffcf8c3b850d9dc2a2aedcf2cc48468fc17b673d1",
+  "aifes_commit": "ef23a8d674f05c10d095520122c7a724f123e16e",
+  "preprocessing": "float32(pixel)/255 - 0.5; flatten row-major",
+  "calibration": {
+    "split": "train",
+    "count": 4096,
+    "seed": 42,
+    "indices_sha256": "2752dec9fd0870e437225f1ac03db95dd3ee30ecc8e842d02cc6ec168986ed0a"
+  },
+  "result_params": [
+    [
+      7,
+      0
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      2,
+      15
+    ],
+    [
+      1,
+      -4
+    ],
+    [
+      1,
+      -23
+    ]
+  ],
+  "weight_params": [
+    [
+      7,
+      0
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      8,
+      0
+    ]
+  ],
+  "weights_and_biases_bytes": 577960,
+  "generated_weights_sha256": "e33da9314e5e3cd0072a58069c6314d09ab9780e1a70dd6a395aa5f7b601c271"
+}

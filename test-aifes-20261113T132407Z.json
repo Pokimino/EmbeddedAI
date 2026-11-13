@@ -1,0 +1,1811 @@
+{
+  "utc": "20261113T132407Z",
+  "port": "/dev/cu.usbmodem31403",
+  "samples": 100,
+  "correct": 100,
+  "accuracy": 1.0,
+  "exact_host_matches": 100,
+  "preprocessing": "float32(x_npy) - 0.5",
+  "rows": [
+    {
+      "index": 0,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 1,
+      "expected_class": 2,
+      "prediction": 2,
+      "scores_u8": [
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 2,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 3,
+      "expected_class": 0,
+      "prediction": 0,
+      "scores_u8": [
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 4,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 5,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        223,
+        0,
+        0,
+        0,
+        0,
+        0,
+        31,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 6,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 7,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        244
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 8,
+      "expected_class": 5,
+      "prediction": 5,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        250,
+        4,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 9,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 10,
+      "expected_class": 0,
+      "prediction": 0,
+      "scores_u8": [
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 11,
+      "expected_class": 6,
+      "prediction": 6,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 12,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 13,
+      "expected_class": 0,
+      "prediction": 0,
+      "scores_u8": [
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 14,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 15,
+      "expected_class": 5,
+      "prediction": 5,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 16,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 17,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 18,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 19,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 20,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 21,
+      "expected_class": 6,
+      "prediction": 6,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 22,
+      "expected_class": 6,
+      "prediction": 6,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 23,
+      "expected_class": 5,
+      "prediction": 5,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 24,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 25,
+      "expected_class": 0,
+      "prediction": 0,
+      "scores_u8": [
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 26,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 27,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 28,
+      "expected_class": 0,
+      "prediction": 0,
+      "scores_u8": [
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 29,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 30,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 31,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        244,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 32,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 33,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        21,
+        0,
+        0,
+        0,
+        233,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 34,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 35,
+      "expected_class": 2,
+      "prediction": 2,
+      "scores_u8": [
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 36,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 37,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        247,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 38,
+      "expected_class": 2,
+      "prediction": 2,
+      "scores_u8": [
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 39,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 40,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        247,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 41,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 42,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 43,
+      "expected_class": 2,
+      "prediction": 2,
+      "scores_u8": [
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 44,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 45,
+      "expected_class": 5,
+      "prediction": 5,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 46,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 47,
+      "expected_class": 2,
+      "prediction": 2,
+      "scores_u8": [
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 48,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 49,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 50,
+      "expected_class": 6,
+      "prediction": 6,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 51,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 52,
+      "expected_class": 5,
+      "prediction": 5,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 53,
+      "expected_class": 5,
+      "prediction": 5,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 54,
+      "expected_class": 6,
+      "prediction": 6,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 55,
+      "expected_class": 0,
+      "prediction": 0,
+      "scores_u8": [
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 56,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 57,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        250,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 58,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 59,
+      "expected_class": 5,
+      "prediction": 5,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 60,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 61,
+      "expected_class": 8,
+      "prediction": 8,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 62,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        0,
+        0,
+        9,
+        224
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 63,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 64,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 65,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        241,
+        0,
+        0,
+        0,
+        0,
+        13
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 66,
+      "expected_class": 6,
+      "prediction": 6,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 67,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 68,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 69,
+      "expected_class": 0,
+      "prediction": 0,
+      "scores_u8": [
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 70,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 71,
+      "expected_class": 0,
+      "prediction": 0,
+      "scores_u8": [
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 72,
+      "expected_class": 2,
+      "prediction": 2,
+      "scores_u8": [
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 73,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 74,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 75,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 76,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 77,
+      "expected_class": 2,
+      "prediction": 2,
+      "scores_u8": [
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 78,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 79,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 80,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 81,
+      "expected_class": 6,
+      "prediction": 6,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 82,
+      "expected_class": 2,
+      "prediction": 2,
+      "scores_u8": [
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 83,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 84,
+      "expected_class": 8,
+      "prediction": 8,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 85,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 86,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 87,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 88,
+      "expected_class": 6,
+      "prediction": 6,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 89,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        223,
+        0,
+        0,
+        0,
+        0,
+        0,
+        31,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 90,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 91,
+      "expected_class": 6,
+      "prediction": 6,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 92,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        0,
+        233
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 93,
+      "expected_class": 3,
+      "prediction": 3,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 94,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 95,
+      "expected_class": 4,
+      "prediction": 4,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 96,
+      "expected_class": 1,
+      "prediction": 1,
+      "scores_u8": [
+        0,
+        169,
+        7,
+        7,
+        23,
+        15,
+        0,
+        15,
+        0,
+        15
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 97,
+      "expected_class": 7,
+      "prediction": 7,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 98,
+      "expected_class": 6,
+      "prediction": 6,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255,
+        0,
+        0,
+        0
+      ],
+      "matches_host_q7": true
+    },
+    {
+      "index": 99,
+      "expected_class": 9,
+      "prediction": 9,
+      "scores_u8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        255
+      ],
+      "matches_host_q7": true
+    }
+  ]
+}
